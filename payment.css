@@ -1,0 +1,10 @@
+body{
+    align-items: center;
+}
+form{
+    background-color: ivory;
+    margin: auto;
+    width: 350px;
+    height: 350px;
+    border: 1px solid black;
+}
