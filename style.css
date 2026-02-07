@@ -1,0 +1,150 @@
+body{
+    background-color: antiquewhite;
+}
+header H4{
+    font-family: 'Courier New', Courier, monospace;
+}
+.hero{
+    margin-top: 15px;
+    height: 80vh;
+    background-image: url(https://img.freepik.com/free-photo/delicious-chicken-rolls-stuffed-with-cheese-spinach-wrapped-strips-bacon-top-view_2829-17420.jpg?t=st=1770356114~exp=1770359714~hmac=20310d28da3c2407c37a32d98cd2d7b028b125d9cb1b17db1de38d897b7eade0);
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: aliceblue;
+    
+}
+.hero-btn{
+    background-color: rgb(255, 255, 255);
+    
+    padding: 4px;
+    color: rgb(0, 0, 0);
+    border: 1px solid white;
+    border-radius: 5px;
+    
+}
+.btn{
+    color: aliceblue;
+    font-size: large;
+    font-style: normal;
+    font-family: sans-serif;
+    
+}
+header{
+    align-items: center;
+    background-color: rgb(36, 36, 36);
+    margin: 0px;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    padding: 20px;
+}
+.headimg{
+    
+ 
+    margin-top: 10px;
+    width: 1560px;
+    border-radius: 5px;
+    
+
+}
+main {
+    padding: 40px;
+}
+
+main h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+}
+
+.card {
+    background-color: white;
+    box-shadow: 0 8px 12px rgba(0,0,0,0.15);
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.card img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.card button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #111;
+    color: white;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #333;
+}
+.box{
+    background-color: aqua;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+
+}
+.box img{
+    width: 100%;
+    margin-bottom: 15px;
+}
+form{
+    color: aliceblue;
+    background-color: #111;
+    margin: auto;
+    font-size: large;
+    height: 280px;
+    
+}
+label{
+    font-size: larger;
+    margin-left: 600px;
+}
+input{
+    width: 200px;
+    height: 25px;
+    border-radius: 6px;
+    
+    
+    
+}
+.hi{
+    margin-left: 680px;
+}
+.heyy{
+    background-color: rgb(0, 132, 255);
+    color: aliceblue;
+    margin-left: 680px;
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+}
+.contact{
+    height: 120px;
+    margin-left: 60px;
+}
